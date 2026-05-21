@@ -1,0 +1,10 @@
+MODULE VARIABLES
+IMPLICIT NONE
+
+  INTEGER :: N_steps = 1000000
+  REAL*8  :: a  = 1.0D0
+  REAL*8  :: b  = 1.0D0
+  REAL*8  :: T  = 0.2D0
+  REAL*8  :: dt = 0.005D0
+  INTEGER :: seed = 1
+END MODULE VARIABLES
